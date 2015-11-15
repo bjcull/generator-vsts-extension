@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Hello Visual Studio Team Services!</title>
+    <script src="sdk/scripts/VSS.SDK.js"></script>
+</head>
+<body>
+    <h1>Hello Visual Studio Team Services!</h1>
+
+    <script type="text/javascript">
+        // Sets up the initial handshake with the host frame
+        VSS.init({
+            // Our extension will explicitly notify the host when we're done loading
+            explicitNotifyLoaded: true,
+
+            // We are using some VSO APIs, so we will need the module loader to load them in
+            usePlatformScripts: true,
+            usePlatformStyles: true
+        });
+
+        VSS.notifyLoadSucceeded();
+    </script>
+</body>
+</html>
