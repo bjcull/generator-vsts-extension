@@ -39,7 +39,7 @@ var ExtensionGenerator = yeoman.generators.Base.extend({
 
     this.sourceRoot(path.join(__dirname, '../templates/vstsextension'));
 
-    this.copy(this.sourceRoot() + '/../../.gitignore', this.applicationName + '/.gitignore');
+    this.copy(this.sourceRoot() + '/../../gitignore.txt', this.applicationName + '/.gitignore');
 
     this.template(this.sourceRoot() + '/Startup.cs', this.applicationName + '/Startup.cs', this.templatedata);
 

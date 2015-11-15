@@ -1,6 +1,6 @@
 {
   "name": "generator-vsts-extension",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Yeoman generator for ASP.NET 5 VSTS Extensions",
   "license": "Apache-2.0",
   "main": "app/index.js",
