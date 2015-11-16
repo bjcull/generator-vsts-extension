@@ -1,6 +1,6 @@
 # generator-vsts-extension
 
-Yeoman generator for ASP.NET 5 Visual Studio Team Services Extensions
+Yeoman generator for ASP.NET 5 VSTS Extensions
 
 ## Getting Started
 
@@ -23,3 +23,7 @@ Yeoman generator for ASP.NET 5 Visual Studio Team Services Extensions
 ## More information
 
 This Yeoman generator is based on the excellent [generator-aspnet](https://github.com/OmniSharp/generator-aspnet).
+
+## Powered by SSW
+I'm lucky enough to work for SSW, who help and encourage me to develop great community content.
+You can find more more tutorials and other excellent tech videos at [SSW TV](http://tv.ssw.com/)
